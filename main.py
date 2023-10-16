@@ -7,7 +7,7 @@ import time
 import json
 import pytz
 
-bot = telebot.TeleBot('Your API Key')
+bot = telebot.TeleBot('<Your API Key>')
 birthdays = {}
 file_path = 'birthdays.json'
 chat_id = -<your_group_chat>
